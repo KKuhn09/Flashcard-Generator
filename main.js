@@ -22,5 +22,3 @@ console.log(secondCloze.cloze);
 console.log(thirdCloze.cloze);
 console.log(fourthCloze.cloze);
 console.log(fifthCloze.cloze);
-
-

@@ -1,5 +1,6 @@
+//Create the ClozeCard constructor
 var ClozeCard = function(fullText, partial){
-	this.fullText = fullText;
+	this.fullText = fullText; 
 	this.partial = partial;
 	this.partialArray = partial.split(" ");
 	this.fullTextArray = fullText.split(" ");
@@ -15,6 +16,5 @@ var ClozeCard = function(fullText, partial){
 	};
 	this.cloze = this.fullTextArray.join(" ");
 }
-
+//Export the constructor
 module.exports = ClozeCard;
-
