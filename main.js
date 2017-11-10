@@ -1,4 +1,10 @@
-//Imports the constructor for BasicCard from 'BasicCard.js' and stores in var BasicCard
+//Imports the our constructors
 var BasicCard = require("./BasicCard.js");
-//Same for ClozeCard
 var ClozeCard = require("./ClozeCard.js");
+
+//Create our basic flashcards
+var firstPresident = new BasicCard("Who was the first president of the United States?", "George Washington");
+console.log(firstPresident.front, firstPresident.back);
+//Create our ClozeCards
+var firstPresidentCloze = new ClozeCard("George Washington was the first president of the United States", "George Washington");
+console.log(firstPresidentCloze.cloze);
